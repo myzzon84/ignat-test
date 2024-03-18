@@ -1,0 +1,41 @@
+.toCatalogWrapper {
+    display: flex;
+    font-family: 'Roboto';
+    width: 1170px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 80px;
+
+    .textBlock,
+    .imageBlock {
+        width: 570px;
+    }
+
+    .textBlock {
+        padding-top: 74px;
+        .h2 {
+            font-weight: 500;
+            font-size: 38px;
+            line-height: 132%;
+            color: #343434;
+            margin-bottom: 30px;
+        }
+        .desc {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #626262;
+            width: 422px;
+            margin-bottom: 40px;
+        }
+        .catalogLink{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #fff;
+            padding: 20px 35px;
+            background-color: black;
+            border-radius: 15px;
+        }
+    }
+}
