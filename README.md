@@ -1,8 +1,32 @@
-# React + Vite
+Структура проєкту
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+src/App.jsx - головний файл додатку
 
-Currently, two official plugins are available:
+src/components - в папках компоненти з фалами стилів
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+src/images - усі зображення проєкту
+
+src/scss - допоміжні файли стилів
+
+app.scss - стилі головного файлу
+
+fonts.scss - підключені шрифти
+
+style.scss - інші загальні стилі
+
+
+
+Запуск проєкту
+
+клонувати репозиторій SSH - git clone git@github.com:myzzon84/ignat-test.git  або HTTPS - git clone https://github.com/myzzon84/ignat-test.git
+
+Перейти в корінь проєкту
+
+Встановити залежності - 'yarn' або 'npm i'
+
+Запуск - 'yarn dev' або 'npm run dev'
+
+
+Посилання на github - https://github.com/myzzon84/ignat-test
+
+Загружена сторінка на netlify - https://ignat-test.netlify.app
